@@ -12,23 +12,37 @@ body {
     background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));   
 }
 
-.icon-wrapper{
-    position: absolute;
-    top: -110px;
-    left: 50px;
-}
 
-.faq-wrapper {
+.main-container {
     position: relative;
     background-color: white;
     width: 375px;
-    margin: 100px auto;
+    margin: 160px auto 20px auto;
     padding: 30px 0px;
     border-radius: 20px;
     box-shadow: 0 0 3px rgba(0,0,0, 0.3);
 }
 
-.faq-wrapper > h1 {
+
+
+.icon-wrapper{
+    position: absolute;
+    top: -110px;
+    left: 65px;
+}
+
+.icon{
+    content: url('/images/illustration-woman-online-mobile.svg');
+}
+
+.icon-shadow{
+    content: url('/images/bg-pattern-mobile.svg');
+    position: relative;
+    top: -65px;
+}
+
+.faq-wrapper>h1 {
+    margin-top: 90px;
     text-align: center;
     color: hsl(238, 29%, 16%);
 }
