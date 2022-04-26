@@ -39,14 +39,14 @@ body {
 }
 
 .icon{
-    content: url('/images/illustration-woman-online-mobile.svg');
+    content: url('images/illustration-woman-online-mobile.svg');
     position: absolute;
     left: 55px;
     z-index: 1;
 }
 
 .icon-shadow{
-    content: url('/images/bg-pattern-mobile.svg');
+    content: url('images/bg-pattern-mobile.svg');
     position: absolute;
     top: 130px;
     left: 55px;
@@ -156,7 +156,7 @@ body {
     }
 
     .icon-shadow{
-        content: url('/images/bg-pattern-desktop.svg');
+        content: url('images/bg-pattern-desktop.svg');
         position: absolute;
         left: -600px;
         top: -320px;
@@ -164,7 +164,7 @@ body {
         /* border: 1px solid black; */
     }
     .icon-box{
-        content: url('/images/illustration-box-desktop.svg');
+        content: url('images/illustration-box-desktop.svg');
         position: absolute;
         z-index: 1;
         top: 170px;
